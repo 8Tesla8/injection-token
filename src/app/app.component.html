@@ -1,0 +1,11 @@
+<h1>
+    AppComponent
+</h1>
+
+
+<button (click)="showError()">Show Error Message</button>
+<button (click)="showInformation()">Show Information Message</button>
+
+<app-error *ngIf="componentName === 'error'"></app-error>
+
+<app-information *ngIf="componentName === 'information'"></app-information>
