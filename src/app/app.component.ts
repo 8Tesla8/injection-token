@@ -6,13 +6,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  componentName = '';
-
-  showError(): void {
-    this.componentName = "error";
-  }
-  
-  showInformation(): void {
-    this.componentName = "information";
-  }
 }
